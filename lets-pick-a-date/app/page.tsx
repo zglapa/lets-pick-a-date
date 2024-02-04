@@ -1,5 +1,6 @@
 'use client';
 
+import React from 'react';
 import IntervalTimer from './subapps/IntervalTimer';
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
       <div className="main-container">
         <div style={{ width: '100%', justifyContent: 'center', alignItems: 'center' }}>
           <h1 style={{ textAlign: 'center', fontSize: 40, fontWeight: 'bold' }}>
-            Let's pick a date!
+            Let&apos;s pick a date!
           </h1>
           <p style={{ textAlign: 'center', fontStyle: 'italic' }}>
             ... is still in progress but in meantime try the following:
