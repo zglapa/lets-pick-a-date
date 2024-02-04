@@ -1,6 +1,7 @@
 import { Dispatch, SetStateAction, useState } from 'react';
 import React from 'react';
 import styles from './IntervalTimer.module.css';
+// @ts-ignore
 import useSound from 'use-sound';
 const COUNTDOWN_BEEP = 'sounds/90s-game-ui-5-185098.mp3';
 const END_BEEP = 'sounds/90s-game-ui-9-185102.mp3';
