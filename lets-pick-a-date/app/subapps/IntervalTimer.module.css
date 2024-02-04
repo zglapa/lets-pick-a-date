@@ -1,0 +1,129 @@
+/* 
+    IntervalTimer.css
+*/
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 300px;
+  height: 500px;
+  margin: 20px;
+  border: 1px solid hsl(0, 0%, 0%);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  background-color: #f0f0f0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom: 1px solid #000;
+}
+
+.header > h2 {
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  flex: 1;
+  width: 100%;
+  background-color: '#ffffff';
+  overflow: hidden;
+}
+
+.setterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.setter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100px;
+}
+
+.setter > button {
+  width: 24px;
+  height: 24px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.setter > button:disabled {
+  background-color: rgb(200, 200, 200);
+  color: rgb(100, 100, 100);
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 16px;
+  gap: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  gap: 10px;
+}
+
+.timer > .buttons > button {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.timerValue {
+  font-size: 64px;
+  -webkit-text-fill-color: rgb(14, 245, 102);
+  -webkit-text-stroke: 2px black;
+  vertical-align: middle;
+}
+
+.setValue {
+  font-size: 32px;
+  -webkit-text-fill-color: rgb(28, 115, 245);
+  -webkit-text-stroke: 1px black;
+  margin-top: -32px;
+}
+
+.display {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+}
